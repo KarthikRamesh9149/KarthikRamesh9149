@@ -14,7 +14,7 @@
 
 I’m an AI builder focused on turning messy real-world inputs into structured systems that people can actually use.
 
-Right now, I’m building **Orchestra** at **Arrayah’s Chapter 3 accelerator** in Sydney — a new AI-powered software delivery intelligence layer for managers and engineers. It is designed to turn messy project requirements into structured scope, execution plans, and live delivery visibility.
+Right now, I’m building **Orchestra** at **Arrayah’s Chapter 4 accelerator** and **SH1P x Antler Cohort 1** in Sydney — a new AI-powered software intelligence layer and Product Brain for Software Teams. It is designed to turn messy project requirements into structured scope, execution plans, and live delivery visibility.
 
 I’m currently pursuing a **Master of Data Science and Innovation at UTS**, and I’m especially interested in:
 - LLM systems
