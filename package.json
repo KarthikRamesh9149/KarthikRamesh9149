@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "scripts": {
+    "check": "npm run lint:markdown && npm run check:links",
+    "lint:markdown": "markdownlint-cli2 \"README.md\"",
+    "check:links": "markdown-link-check README.md --config .markdown-link-check.json"
+  },
+  "devDependencies": {
+    "markdown-link-check": "3.14.2",
+    "markdownlint-cli2": "0.22.1"
+  }
+}
