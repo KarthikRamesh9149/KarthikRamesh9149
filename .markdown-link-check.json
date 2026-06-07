@@ -1,0 +1,12 @@
+{
+  "ignorePatterns": [
+    {
+      "pattern": "^mailto:"
+    },
+    {
+      "pattern": "^https://www\\.linkedin\\.com/"
+    }
+  ],
+  "retryOn429": true,
+  "timeout": "20s"
+}
