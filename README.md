@@ -73,6 +73,14 @@ A private product I’m currently building through Arrayah.
 
 ## Selected Projects
 
+### [Enterprise Agentic Knowledge Intelligence Platform](https://github.com/KarthikRamesh9149/Enterprise-Agentic-Knowledge-Intelligence-Platform)
+
+**Enterprise RAG, agentic workflow, and governance platform**
+
+- Full-stack AI product with FastAPI, Next.js, PostgreSQL, pgvector, Redis, JWT/RBAC, Docker Compose, and CI
+- Implements document ingestion, vector retrieval, citation-grounded answers, confidence scoring, human review, audit logs, analytics, and evaluation workflows
+- Designed to demonstrate production-minded GenAI engineering: security boundaries, provider abstraction, mock/local demos, observability, and deployment planning
+
 ### [DataNarrate](https://github.com/KarthikRamesh9149/DataNarrate)
 
 **Intent-Aware Data Science Copilot**
