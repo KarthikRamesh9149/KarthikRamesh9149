@@ -1,7 +1,7 @@
 <h1 align="center">Karthik Ramesh</h1>
 
 <p align="center">
-  Building AI products, LLM systems, and workflow intelligence tools
+  Building AI products, agentic systems, and workflow intelligence tools
 </p>
 
 <p align="center">
@@ -16,165 +16,189 @@
 
 ## About me
 
-I’m an AI builder focused on turning messy real-world inputs into structured systems that people can actually use.
+I build 0→1 AI products that turn messy real-world inputs and high-friction decisions into systems people can understand, operate, and trust.
 
-Right now, I’m building **Orchestra** through **Arrayah** and the **SH1P 1 Australia Cohort** in Sydney. It is an AI-powered software intelligence layer and Product Brain for software teams, designed to turn messy project requirements into structured scope, execution plans, and live delivery visibility.
+Most recently, I built **Orchestra** through **Arrayah** and **SH1P Australia** in Sydney. Orchestra is a citation-grounded Product Memory for software teams, designed to turn meetings, documents, conversations, and code into searchable project knowledge. I took it from 100+ customer interviews to live beta with five pilot customers, owning product strategy, system architecture, evaluation, and engineering delivery.
 
 I’m currently pursuing a **Master of Data Science and Innovation at UTS**, and I’m especially interested in:
 
-- LLM systems
-- RAG pipelines
-- multi-agent workflows
-- applied AI products
-- workflow intelligence for software teams
+- agentic workflows and tool use
+- RAG, hybrid retrieval, grounding, and citations
+- LLM evaluation and observability
+- full-stack AI products
+- workflow automation and AI governance
 
-## What I’m building now
+## What I’m building
 
 ### Orchestra
 
-A private product I’m currently building through Arrayah.
+A private product built through Arrayah and SH1P Australia.
 
 **What it is**
 
-- An AI-powered software delivery intelligence layer for managers and engineers
-- Turns messy requirements into structured scope, execution plans, and live delivery insight
-- Bridges the gap between business context and technical execution
-- Focused on clarity, alignment, and execution visibility inside software teams
+- A citation-grounded Product Memory for software teams
+- Turns meetings, documents, conversations, and code into searchable project context
+- Uses hybrid retrieval and reranking across structured and unstructured sources
+- Includes a 148-case evaluation suite for relevance, grounding, and regression detection
+- Connects through an MCP server and 17 read-only integrations across Slack, GitHub, and Google Drive
+- Progressed from customer discovery to live beta with five pilot customers
+
+## How I build AI products
+
+- Start with the user, decision, existing workaround, and smallest valuable workflow—not a model looking for a use case
+- Separate model proposals from software authority, permissions, approvals, and consequential actions
+- Evaluate retrieval, grounding, task quality, safety, latency, and cost as different product risks
+- Build deterministic local or mock paths so the product, tests, and demos remain reproducible without paid providers
+- Treat observability, failure states, auditability, and human escalation as product surfaces rather than backend afterthoughts
 
 ## Experience
 
-### Arrayah — Builder in Residence
+### Arrayah & SH1P Australia — Founder / AI Builder in Residence
 
-**Sydney, Australia | 2026 – Present**
+**Sydney, Australia | Mar 2026 – Jun 2026**
 
-- Currently building **Orchestra** through Arrayah
-- Working on AI systems for requirement translation, execution planning, and software delivery visibility
+- Took Orchestra from 100+ customer interviews to live beta with five pilot customers
+- Owned product discovery, system architecture, retrieval, evaluation, backend delivery, and integration strategy
+- Built hybrid retrieval and reranking, a 148-case evaluation suite, an MCP server, and 17 read-only integrations
 
-### KRSP Tech — AI and Automation Engineer
+### KRSP Tech — AI & Automation Engineer
 
-**Sydney, Australia | Feb 2026**
+**Sydney, Australia | Feb 2026 – Mar 2026**
 
-- Built an end-to-end AI-powered resume ranking system
-- Designed a hybrid pipeline with section-aware scoring, dynamic weighting, domain similarity analysis, explainable score breakdowns, and privacy-first local data handling
+- Built a privacy-first AI resume-screening system using section-aware scoring, dynamic weighting, and semantic clustering
+- Designed an explainable LLM refinement layer while keeping document processing local and every score auditable
 
 ### Aavaaz Inc — Artificial Intelligence Intern
 
 **Remote | Dec 2024 – Jan 2025**
 
-- Contributed to AI-driven voice-to-voice translation systems
-- Worked across NLP, speech recognition, and machine learning to improve real-time translation accuracy and contextual understanding
+- Engineered NLP and speech-recognition pipelines for a real-time voice-to-voice translation system
+- Reached 97% language-detection accuracy and improved contextual translation quality
 
 ### Continental Automotive — Artificial Intelligence Intern
 
 **Bengaluru, India | May 2024 – Oct 2024**
 
-- Built applied AI systems for efficiency and safety
-- Worked on conversational AI for software testing FAQs, terrain-adaptive vehicle intelligence, object detection for safety compliance, and Python automation workflows
+- Built a real-time CNN-based terrain-detection system combining camera and sensor data for automotive safety
+- Deployed a RAG assistant over internal engineering documentation, adopted by 3,000+ employees
+- Automated airbag-testing documentation in Python, reducing manual effort by roughly 95%
 
 ## Selected Projects
 
+### [LaneOrchestrator](https://github.com/KarthikRamesh9149/laneorchestrator)
+
+**Risk-aware model and agent routing for Codex**
+
+- Solves the product problem of choosing the right model, specialist, and review depth without making developers reason about the entire agent stack
+- Analyses task and repository context, evaluates complexity and risk, and selects an appropriate execution lane
+- Routes work across GPT-5.6 model lanes and 172 bundled specialist agents while keeping the lane decision separate from implementation
+- Produces auditable route cards, bounded execution paths, and verified handoffs backed by tests and evidence
+
+### [Enterprise AI Data Analyst & Forecasting Copilot](https://github.com/KarthikRamesh9149/enterprise-ai-data-analyst-copilot)
+
+**Governed natural-language analytics workspace**
+
+- Gives business teams a faster path to answers without granting generated SQL direct authority over sensitive data
+- Turns business questions into reviewable SQL, visualisations, churn analysis, forecasts, and executive reports
+- Treats generated SQL as an untrusted proposal and constrains it through table and column policy, immutable approval binding, RBAC, audit trails, and execution budgets
+- Built with FastAPI, Next.js, DuckDB, SQLGlot, PostgreSQL, and MLflow
+
+### [ReplayOS](https://github.com/KarthikRamesh9149/ReplayOS)
+
+**AI workflow control plane for high-stakes operations**
+
+- Makes operational automation inspectable and recoverable instead of hiding consequential actions inside model-generated prose
+- Compiles operational evidence into typed workflows that people can inspect, approve, execute, recover, and replay
+- Keeps models in a proposal role while deterministic policy controls approvals, idempotent effects, postcondition verification, and evidence exports
+- Includes a [live product](https://replayos.vercel.app), deterministic evaluation path, recovery workflow, and hash-chained execution traces
+
 ### [Enterprise Agentic Knowledge Intelligence Platform](https://github.com/KarthikRamesh9149/Enterprise-Agentic-Knowledge-Intelligence-Platform)
 
-**Enterprise RAG, agentic workflow, and governance platform**
+**Role-aware RAG, human review, and AI governance platform**
 
-- Full-stack AI product with FastAPI, Next.js, PostgreSQL, pgvector, Redis, JWT/RBAC, Docker Compose, and CI
-- Implements document ingestion, vector retrieval, citation-grounded answers, confidence scoring, human review, audit logs, analytics, and evaluation workflows
-- Designed to demonstrate production-minded GenAI engineering: security boundaries, provider abstraction, mock/local demos, observability, and deployment planning
+- Helps knowledge workers reach concise answers without treating a fluent model response as the source of truth
+- Turns approved documents into grounded answers with citations, retrieved evidence, confidence scoring, and agent traces
+- Routes low-confidence answers to human review and records evaluation, audit, usage, latency, and operational signals
+- Built with FastAPI, Next.js, PostgreSQL, pgvector, Redis, Docker, JWT/RBAC, and CI
 
-### [DataNarrate](https://github.com/KarthikRamesh9149/DataNarrate)
+## More AI Products
 
-**Intent-Aware Data Science Copilot**
+### [AgentOps Evaluation & Observability Studio](https://github.com/KarthikRamesh9149/AgentOps-Evaluation-Observability-Studio)
 
-- Takes a user’s analysis goal in plain English and runs end-to-end analysis
-- Profiles and cleans data, generates explanatory visualizations, trains suitable ML models, and returns clear answers with supporting insights
-- Built with FastAPI, ContextUI, scikit-learn, and LLM-based workflows
+- Manages evaluation datasets, agent runs, human reviews, quality gates, and observability in one workspace
+- Makes changing AI behaviour inspectable through versioned evidence rather than isolated prompt experiments
 
-### [ResumeRanker](https://github.com/KarthikRamesh9149/ResumeRanker)
+### [Autonomous SWE Agent Workbench](https://github.com/KarthikRamesh9149/autonomous-swe-agent-workbench)
 
-**Local-first AI resume screening**
+- Orchestrates planning, patching, testing, repair loops, and approval for software-engineering agents
+- Uses sandboxed commands, secret scanning, deterministic evaluations, and bounded execution controls
 
-- Ranks resumes using section-aware analysis instead of naive keyword matching
-- Uses dynamic weighting across experience, projects, skills, and certifications
-- Adds explainable scoring, clustering, and contextual insights while keeping raw data local
+### [Enterprise AI Incident Triage & Automation Agent](https://github.com/KarthikRamesh9149/Enterprise-AI-Incident-Triage-Automation-Agent)
+
+- Converts alerts and evidence into triage hypotheses, tool traces, approval-gated actions, and incident reports
+- Keeps operational actions mock-first and reviewable through RBAC, audit, evaluation, and observability
+
+### [Enterprise Real-Time Voice AI Concierge](https://github.com/KarthikRamesh9149/Enterprise-Real-Time-Voice-AI-Concierge)
+
+- Supports voice-led customer service with contextual tools, supervisor handoff, and audited call workflows
+- Combines a real-time product surface with role-aware operations, evaluation, and optional model providers
 
 ### [AgriSmart](https://github.com/KarthikRamesh9149/AgriSmart)
 
-**AI decision-support system for agriculture**
-
-- Built for the Mistral Hackathon in Sydney
-- Explores district-level climate, crop viability, water usage, fertilizer impact, and policy-oriented agricultural insights
-- Designed to support better agricultural decision-making with AI-powered recommendations
-
-### [AI-Powered Creative Ads System](https://github.com/KarthikRamesh9149/AI-Powered-Creative-Ads-System)
-
-**End-to-end AI ad generation workflow**
-
-- Generates marketing copy, CTAs, and AI-assisted video creatives across funnel stages
-- Centralizes feedback, regeneration, and creative management in one workflow
-- Built to speed up ad production and iteration
-
-### [PrepPilot](https://github.com/KarthikRamesh9149/PrepPilot---AI-Study-Companion/tree/main)
-
-**AI study companion grounded in class material**
-
-- Generates quizzes with explanations and citations
-- Builds day-by-day study plans up to the exam date
-- Designed for grounded revision from uploaded notes, slides, and PDFs
+- Creates district-level agricultural intelligence across climate, soil, water, crop, and policy risk
+- Combines geospatial exploration, crop recommendations, economic comparisons, and policy simulation
 
 ### [BackpackerAI](https://github.com/KarthikRamesh9149/BackpackerAI)
 
-**Voice-first AI travel companion**
+- Voice-first AI travel companion for backpackers exploring Australia
+- Combines weather-aware recommendations, maps, budgets, itinerary planning, travel utilities, and emergency references
+- Available as a [live product](https://backpacker-gilt.vercel.app)
 
-- Built for backpackers exploring Australia
-- Combines voice input/output, itinerary planning, travel utilities, location context, and recommendations
-- Focused on practical on-the-go travel assistance
+### [PrepPilot](https://github.com/KarthikRamesh9149/PrepPilot---AI-Study-Companion)
 
-### PPP Candidate Briefing Agent
+- Turns a student’s PDFs and slides into evidence-linked quizzes, explanations, and revision plans
+- Validates citations against retrieved context and preserves a deterministic, no-key study workflow
 
-**Claude-powered candidate research agent**
+### [DataNarrate](https://github.com/KarthikRamesh9149/DataNarrate)
 
-- Built for an executive-search style workflow
-- Researches public candidate context and generates structured recruiter briefings
-- Uses tool-assisted research, validation, and strict output formatting
+- Intent-aware data-science copilot for profiling, cleaning, visualisation, baseline modelling, and export
+- Keeps transformations reviewable through explicit cleaning logs and local-first data handling
 
-### AI-Enhanced Terrain-Adaptive Vehicle Control System
+### [ResumeRanker](https://github.com/KarthikRamesh9149/ResumeRanker)
 
-**Real-time vehicle intelligence**
+- Local-first resume screening using section-aware evidence rather than naive keyword overlap
+- Combines deterministic scoring, semantic clustering, matched and missing requirements, and optional LLM explanations
 
-- CNN-based terrain detection for real-time vehicle behaviour adjustment
-- Dynamically adapts suspension, braking, and ride height using sensor and camera data
-- Developed during my time at Continental Automotive
+### [AI-Powered Creative Ads System](https://github.com/KarthikRamesh9149/AI-Powered-Creative-Ads-System)
 
-## Other Builds
-
-- Dual Speaker Conversational AI Assistant  
-- PDF Chatbot / RAG Assistant  
-- AI-Powered Software Testing FAQ Chatbot  
-- Helmet Detection System  
-- Excel Automation Suite  
-- Safety compliance object detection workflows  
-- Python automation tools for repetitive operational tasks  
+- Turns campaign briefs into full-funnel copy, video concepts, validation, feedback loops, and a Notion-backed review queue
+- Keeps brand, legal, and publishing decisions with a human reviewer
 
 ## Publications and Achievements
 
-- Submitted a technical paper on **AI-Enhanced Terrain-Adaptive Vehicle Control System** for the **SAEINDIA International Mobility Conference 2024**
-- Showcased the concept and implementation at **Continental Innovation Day**
+- Selected for **Arrayah Accelerator Chapters 3 & 4** and **SH1P Australia Cohort 1** to build Orchestra
+- Submitted a technical paper on the **AI-Enhanced Terrain-Adaptive Vehicle Control System** for the **SAEINDIA International Mobility Conference 2024**
+- Showcased the terrain-adaptive vehicle system at **Continental Innovation Day**
 - Published **“Real-Time Biometrics-Based Smart EVM with FPGA Implementation”** in the *International Journal of Scientific Research and Engineering Trends*
 - Built **AgriSmart** as part of the **Mistral Hackathon** in Sydney
 
 ## Tech Stack
 
-**Languages**  
-Python, SQL
+**Languages**
 
-**Core Areas**  
-Generative AI, LLMs, NLP, RAG, Neural Networks, Data Visualization
+Python, TypeScript, SQL
 
-**Frameworks / Libraries**  
-LangChain, FastAPI, Streamlit, TensorFlow, PyTorch, Hugging Face, scikit-learn, Pandas, NumPy
+**AI Systems**
 
-**Tools**  
-Git, GitHub, VS Code, Cursor, Claude Code, Notion, ContextUI, Codex
+Agent orchestration, RAG, hybrid retrieval, reranking, embeddings, vector search, tool calling, MCP, structured outputs, prompt engineering, grounding, citation verification, LLM evaluation
+
+**Full-Stack & Data**
+
+FastAPI, Pydantic, Node.js, React, Next.js, PostgreSQL, pgvector, Redis, DuckDB, SQLGlot, MLflow, Pandas, NumPy, scikit-learn
+
+**Platform & Reliability**
+
+Docker, CI/CD, GitHub Actions, JWT/RBAC, audit logs, observability, sandboxing, security scanning, OpenAI, Anthropic, Groq
 
 ## Education
 
@@ -194,4 +218,4 @@ Git, GitHub, VS Code, Cursor, Claude Code, Notion, ContextUI, Codex
 - **LinkedIn:** [karthik-ramesh-2b52ab328](https://www.linkedin.com/in/karthik-ramesh-2b52ab328)
 - **GitHub:** [KarthikRamesh9149](https://github.com/KarthikRamesh9149)
 
-I’m interested in AI products, startup ideas, workflow systems, and real problems that need strong technical execution.
+I’m interested in teams turning difficult customer workflows into dependable AI products—especially where product judgment, hands-on implementation, and responsible automation need to work together.
