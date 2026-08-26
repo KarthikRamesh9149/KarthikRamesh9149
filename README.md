@@ -9,6 +9,7 @@
 </p>
 
 <p align="center">
+  <a href="https://karthikrameshportfolio.vercel.app">Portfolio</a> ·
   <a href="mailto:karthikramesh2012@gmail.com">Email</a> ·
   <a href="https://www.linkedin.com/in/karthik-ramesh-2b52ab328">LinkedIn</a> ·
   <a href="https://github.com/KarthikRamesh9149">GitHub</a>
@@ -214,6 +215,7 @@ Docker, CI/CD, GitHub Actions, JWT/RBAC, audit logs, observability, sandboxing, 
 
 ## Connect
 
+- **Portfolio:** [karthikrameshportfolio.vercel.app](https://karthikrameshportfolio.vercel.app)
 - **Email:** [karthikramesh2012@gmail.com](mailto:karthikramesh2012@gmail.com)
 - **LinkedIn:** [karthik-ramesh-2b52ab328](https://www.linkedin.com/in/karthik-ramesh-2b52ab328)
 - **GitHub:** [KarthikRamesh9149](https://github.com/KarthikRamesh9149)
