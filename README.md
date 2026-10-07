@@ -1,223 +1,130 @@
 <h1 align="center">Karthik Ramesh</h1>
 
 <p align="center">
-  Building AI products, agentic systems, and workflow intelligence tools
+  I lead the discovery. I build the system.
 </p>
 
 <p align="center">
-  Sydney, Australia
+  AI product engineer · Sydney, Australia · Bengaluru to Sydney
 </p>
 
 <p align="center">
-  <a href="https://karthikrameshportfolio.vercel.app">Portfolio</a> ·
+  <a href="https://karthikrameshportfolio.vercel.app/">Portfolio</a> ·
   <a href="mailto:karthikramesh2012@gmail.com">Email</a> ·
-  <a href="https://www.linkedin.com/in/karthik-ramesh-2b52ab328">LinkedIn</a> ·
-  <a href="https://github.com/KarthikRamesh9149">GitHub</a>
+  <a href="https://www.linkedin.com/in/karthik-ramesh-2b52ab328/">LinkedIn</a>
 </p>
 
 ## About me
 
-I build 0→1 AI products that turn messy real-world inputs and high-friction decisions into systems people can understand, operate, and trust.
+I build AI products from the first customer conversation to the system people use. I like owning the whole problem: understanding the workflow, deciding what should change, building the software and testing whether it works.
 
-Most recently, I built **Orchestra** through **Arrayah** and **SH1P Australia** in Sydney. Orchestra is a citation-grounded Product Memory for software teams, designed to turn meetings, documents, conversations, and code into searchable project knowledge. I took it from 100+ customer interviews to live beta with five pilot customers, owning product strategy, system architecture, evaluation, and engineering delivery.
+I’m an **AI Enablement and Adoption Specialist at OMERS Infrastructure in Sydney**, building AI agents and automation workflows for the Infrastructure team and leading AI enablement and adoption. Alongside that, I’m completing a **Master of Data Science and Innovation at the University of Technology Sydney**.
 
-I’m currently pursuing a **Master of Data Science and Innovation at UTS**, and I’m especially interested in:
+Through **Arrayah and SH1P Australia**, I led Orchestra’s customer discovery, product strategy, architecture and engineering. The programme work included **100+ customer interviews and five pilot customers**. My work now spans desktop products, coding-agent orchestration, business workflows and native iPhone experiences.
 
-- agentic workflows and tool use
-- RAG, hybrid retrieval, grounding, and citations
-- LLM evaluation and observability
-- full-stack AI products
-- workflow automation and AI governance
+[Explore my work](https://karthikrameshportfolio.vercel.app/work) · [My story](https://karthikrameshportfolio.vercel.app/about) · [Professional journey](https://karthikrameshportfolio.vercel.app/experience)
 
-## What I’m building
+## Orchestra
 
-### Orchestra
+### [A product brain for teams and their coding agents](https://github.com/KarthikRamesh9149/Orchestra)
 
-A private product built through Arrayah and SH1P Australia.
+A desktop app that keeps original sources, reviewed product decisions and coding work connected. A conversation can change the proposed scope without silently changing the plan everyone has agreed to.
 
-**What it is**
+- **Ask and check.** Socrates answers across project documents and conversations with citations you can open. Deep Research produces a report linked to its sources.
+- **Review before changing the plan.** Truth Inbox and Live Doc connect proposed changes to their evidence. A person reviews the change; original sources remain preserved and accepted decisions have a version history.
+- **Carry the decision into the code.** Agent Preflight prepares a task-specific context pack for Codex or VS Code through MCP. Postflight links reported implementation evidence back to that pack for review.
+- **Work locally or as a team.** The Electron app manages a local PostgreSQL/pgvector workspace and supports a separate shared server with its own membership and permissions.
 
-- A citation-grounded Product Memory for software teams
-- Turns meetings, documents, conversations, and code into searchable project context
-- Uses hybrid retrieval and reranking across structured and unstructured sources
-- Includes a 148-case evaluation suite for relevance, grounding, and regression detection
-- Connects through an MCP server and 17 read-only integrations across Slack, GitHub, and Google Drive
-- Progressed from customer discovery to live beta with five pilot customers
+**My contribution:** customer discovery, product design, architecture, engineering delivery and evaluation.
 
-## How I build AI products
+**Status:** open-source desktop preview. Packaged public downloads are not yet available.
 
-- Start with the user, decision, existing workaround, and smallest valuable workflow—not a model looking for a use case
-- Separate model proposals from software authority, permissions, approvals, and consequential actions
-- Evaluate retrieval, grounding, task quality, safety, latency, and cost as different product risks
-- Build deterministic local or mock paths so the product, tests, and demos remain reproducible without paid providers
-- Treat observability, failure states, auditability, and human escalation as product surfaces rather than backend afterthoughts
+[Source code](https://github.com/KarthikRamesh9149/Orchestra) · [Case study and embedded demos](https://karthikrameshportfolio.vercel.app/work/orchestra)
 
-## Experience
-
-### Arrayah & SH1P Australia — Founder / AI Builder in Residence
-
-**Sydney, Australia | Mar 2026 – Jun 2026**
-
-- Took Orchestra from 100+ customer interviews to live beta with five pilot customers
-- Owned product discovery, system architecture, retrieval, evaluation, backend delivery, and integration strategy
-- Built hybrid retrieval and reranking, a 148-case evaluation suite, an MCP server, and 17 read-only integrations
-
-### KRSP Tech — AI & Automation Engineer
-
-**Sydney, Australia | Feb 2026 – Mar 2026**
-
-- Built a privacy-first AI resume-screening system using section-aware scoring, dynamic weighting, and semantic clustering
-- Designed an explainable LLM refinement layer while keeping document processing local and every score auditable
-
-### Aavaaz Inc — Artificial Intelligence Intern
-
-**Remote | Dec 2024 – Jan 2025**
-
-- Engineered NLP and speech-recognition pipelines for a real-time voice-to-voice translation system
-- Reached 97% language-detection accuracy and improved contextual translation quality
-
-### Continental Automotive — Artificial Intelligence Intern
-
-**Bengaluru, India | May 2024 – Oct 2024**
-
-- Built a real-time CNN-based terrain-detection system combining camera and sensor data for automotive safety
-- Deployed a RAG assistant over internal engineering documentation, adopted by 3,000+ employees
-- Automated airbag-testing documentation in Python, reducing manual effort by roughly 95%
-
-## Selected Projects
+## Selected work
 
 ### [LaneOrchestrator](https://github.com/KarthikRamesh9149/laneorchestrator)
 
-**Risk-aware model and agent routing for Codex**
+**Choosing the right expertise for a coding task.**
 
-- Solves the product problem of choosing the right model, specialist, and review depth without making developers reason about the entire agent stack
-- Analyses task and repository context, evaluates complexity and risk, and selects an appropriate execution lane
-- Routes work across GPT-5.6 model lanes and 172 bundled specialist agents while keeping the lane decision separate from implementation
-- Produces auditable route cards, bounded execution paths, and verified handoffs backed by tests and evidence
+An Astra-led orchestration plugin for Codex. It assesses task and repository context, chooses specialist expertise, model and thinking level, and coordinates implementation and review. It includes **172 bundled specialist profiles**, with execution settings chosen per task. The local Python control plane supports repeatable routing and verified handoffs.
 
-### [Enterprise AI Data Analyst & Forecasting Copilot](https://github.com/KarthikRamesh9149/enterprise-ai-data-analyst-copilot)
+[Repository](https://github.com/KarthikRamesh9149/laneorchestrator) · [Walkthrough](https://karthikrameshportfolio.vercel.app/work/laneorchestrator)
 
-**Governed natural-language analytics workspace**
+### [WonderFlow](https://karthikrameshportfolio.vercel.app/work/wonderflow)
 
-- Gives business teams a faster path to answers without granting generated SQL direct authority over sensitive data
-- Turns business questions into reviewable SQL, visualisations, churn analysis, forecasts, and executive reports
-- Treats generated SQL as an untrusted proposal and constrains it through table and column policy, immutable approval binding, RBAC, audit trails, and execution budgets
-- Built with FastAPI, Next.js, DuckDB, SQLGlot, PostgreSQL, and MLflow
+**One business, three different records, one reviewable next step.**
 
-### [ReplayOS](https://github.com/KarthikRamesh9149/ReplayOS)
+An independent prototype for reconciling leads across business systems. It compares company and person records, preserves original attribution, explains proposed matches and lets a reviewer approve individual changes. The public demo uses sample records and simulated CRM updates. I framed the problem, designed the review workflow and built the product end to end.
 
-**AI workflow control plane for high-stakes operations**
+[Live demo](https://wondergroupprototype.vercel.app/) · [Case study and films](https://karthikrameshportfolio.vercel.app/work/wonderflow)
 
-- Makes operational automation inspectable and recoverable instead of hiding consequential actions inside model-generated prose
-- Compiles operational evidence into typed workflows that people can inspect, approve, execute, recover, and replay
-- Keeps models in a proposal role while deterministic policy controls approvals, idempotent effects, postcondition verification, and evidence exports
-- Includes a [live product](https://replayos.vercel.app), deterministic evaluation path, recovery workflow, and hash-chained execution traces
+### [SeeNA](https://github.com/surtecha/SeeNA)
 
-### [Enterprise Agentic Knowledge Intelligence Platform](https://github.com/KarthikRamesh9149/Enterprise-Agentic-Knowledge-Intelligence-Platform)
+**Voice-guided vision tasks on an iPhone.**
 
-**Role-aware RAG, human review, and AI governance platform**
+I built the prototype end to end within a four-person team: SwiftUI screens, spoken guidance, camera-assisted positioning, answer review and local result history. It presents one target at a time and waits for the response. The separate eye-power estimate is experimental, not clinically validated and not a prescription.
 
-- Helps knowledge workers reach concise answers without treating a fluent model response as the source of truth
-- Turns approved documents into grounded answers with citations, retrieved evidence, confidence scoring, and agent traces
-- Routes low-confidence answers to human review and records evaluation, audit, usage, latency, and operational signals
-- Built with FastAPI, Next.js, PostgreSQL, pgvector, Redis, Docker, JWT/RBAC, and CI
+[Repository](https://github.com/surtecha/SeeNA) · [Case study and demos](https://karthikrameshportfolio.vercel.app/work/seena)
 
-## More AI Products
+### [FormBridge](https://formbridge-nlp-at2.vercel.app/)
 
-### [AgentOps Evaluation & Observability Studio](https://github.com/KarthikRamesh9149/AgentOps-Evaluation-Observability-Studio)
+**A booking brief that keeps up with the conversation.**
 
-- Manages evaluation datasets, agent runs, human reviews, quality gates, and observability in one workspace
-- Makes changing AI behaviour inspectable through versioned evidence rather than isolated prompt experiments
+A restaurant-enquiry workspace that tracks changing requests, links extracted details to the messages behind them and keeps uncertain answers open. Staff can correct, approve and download the brief. Built with Next.js, TypeScript and server-side AI analysis. Approval prepares a handoff; it does not make a restaurant reservation.
 
-### [Autonomous SWE Agent Workbench](https://github.com/KarthikRamesh9149/autonomous-swe-agent-workbench)
+[Live product](https://formbridge-nlp-at2.vercel.app/)
 
-- Orchestrates planning, patching, testing, repair loops, and approval for software-engineering agents
-- Uses sandboxed commands, secret scanning, deterministic evaluations, and bounded execution controls
+## Research
 
-### [Enterprise AI Incident Triage & Automation Agent](https://github.com/KarthikRamesh9149/Enterprise-AI-Incident-Triage-Automation-Agent)
+### [Coding-agent harness evaluation at UTS](https://github.com/KarthikRamesh9149/UTS-ilab-Group-15-02)
 
-- Converts alerts and evidence into triage hypotheses, tool traces, approval-gated actions, and incident reports
-- Keeps operational actions mock-first and reviewable through RBAC, audit, evaluation, and observability
+UTS iLab team research comparing Terminus-2, OpenHands and a custom Deep Agents/LangGraph harness on Terminal-Bench 2.1. The repository contains harness implementations, recorded task outcomes, run configurations and reproducible reports. Full benchmark runs and development-subset experiments are reported separately, with missing outcomes kept visible.
 
-### [Enterprise Real-Time Voice AI Concierge](https://github.com/KarthikRamesh9149/Enterprise-Real-Time-Voice-AI-Concierge)
+## More projects
 
-- Supports voice-led customer service with contextual tools, supervisor handoff, and audited call workflows
-- Combines a real-time product surface with role-aware operations, evaluation, and optional model providers
+| Project | What it does |
+| --- | --- |
+| [Analytics Copilot](https://github.com/KarthikRamesh9149/enterprise-ai-data-analyst-copilot) | Turns business questions into reviewable SQL, visualisations, forecasts and reports, with approval tied to the proposed query and dataset. |
+| [ReplayOS](https://github.com/KarthikRamesh9149/ReplayOS) | Builds reviewable operational workflows with approvals, effect verification, recovery and replay. Its [live demo](https://replayos.vercel.app/) uses sample operations. |
+| [Knowledge Workspace](https://github.com/KarthikRamesh9149/Enterprise-Agentic-Knowledge-Intelligence-Platform) | Answers from approved documents with citations, role-based access and a human-review path when confidence is low. |
+| [AgentOps Studio](https://github.com/KarthikRamesh9149/AgentOps-Evaluation-Observability-Studio) | Brings evaluation datasets, agent runs, human reviews and quality gates into one workspace. |
+| [SWE Agent Workbench](https://github.com/KarthikRamesh9149/autonomous-swe-agent-workbench) | Coordinates planning, patching, testing and repair, with sandboxed commands and approval controls. |
+| [Incident Triage Agent](https://github.com/KarthikRamesh9149/Enterprise-AI-Incident-Triage-Automation-Agent) | Turns alerts into triage hypotheses, proposed actions and reports, with simulated tools and human approval. |
+| [Voice AI Concierge](https://github.com/KarthikRamesh9149/Enterprise-Real-Time-Voice-AI-Concierge) | Supports voice-led customer service, contextual tools and supervisor handoff. |
+| [AgriSmart](https://github.com/KarthikRamesh9149/AgriSmart) | Explores district-level climate, soil, water, crop and policy risk, with crop recommendations and economic comparisons. |
+| [BackpackerAI](https://github.com/KarthikRamesh9149/BackpackerAI) | A voice-first travel companion for Australia, with weather, maps, budgets and itinerary planning. [Live demo](https://backpacker-gilt.vercel.app/). |
+| [PrepPilot](https://github.com/KarthikRamesh9149/PrepPilot---AI-Study-Companion) | Turns PDFs and slides into source-linked quizzes, explanations and revision plans. |
+| [DataNarrate](https://github.com/KarthikRamesh9149/DataNarrate) | Supports data profiling, reviewable cleaning, visualisation, baseline modelling and export. |
+| [ResumeRanker](https://github.com/KarthikRamesh9149/ResumeRanker) | Compares candidates against role requirements using evidence from résumé sections, with local document processing. |
+| [Creative Ads System](https://github.com/KarthikRamesh9149/AI-Powered-Creative-Ads-System) | Turns campaign briefs into copy, video concepts and a review queue, with publishing decisions left to a person. |
 
-### [AgriSmart](https://github.com/KarthikRamesh9149/AgriSmart)
+## Experience
 
-- Creates district-level agricultural intelligence across climate, soil, water, crop, and policy risk
-- Combines geospatial exploration, crop recommendations, economic comparisons, and policy simulation
-
-### [BackpackerAI](https://github.com/KarthikRamesh9149/BackpackerAI)
-
-- Voice-first AI travel companion for backpackers exploring Australia
-- Combines weather-aware recommendations, maps, budgets, itinerary planning, travel utilities, and emergency references
-- Available as a [live product](https://backpacker-gilt.vercel.app)
-
-### [PrepPilot](https://github.com/KarthikRamesh9149/PrepPilot---AI-Study-Companion)
-
-- Turns a student’s PDFs and slides into evidence-linked quizzes, explanations, and revision plans
-- Validates citations against retrieved context and preserves a deterministic, no-key study workflow
-
-### [DataNarrate](https://github.com/KarthikRamesh9149/DataNarrate)
-
-- Intent-aware data-science copilot for profiling, cleaning, visualisation, baseline modelling, and export
-- Keeps transformations reviewable through explicit cleaning logs and local-first data handling
-
-### [ResumeRanker](https://github.com/KarthikRamesh9149/ResumeRanker)
-
-- Local-first resume screening using section-aware evidence rather than naive keyword overlap
-- Combines deterministic scoring, semantic clustering, matched and missing requirements, and optional LLM explanations
-
-### [AI-Powered Creative Ads System](https://github.com/KarthikRamesh9149/AI-Powered-Creative-Ads-System)
-
-- Turns campaign briefs into full-funnel copy, video concepts, validation, feedback loops, and a Notion-backed review queue
-- Keeps brand, legal, and publishing decisions with a human reviewer
-
-## Publications and Achievements
-
-- Selected for **Arrayah Accelerator Chapters 3 & 4** and **SH1P Australia Cohort 1** to build Orchestra
-- Submitted a technical paper on the **AI-Enhanced Terrain-Adaptive Vehicle Control System** for the **SAEINDIA International Mobility Conference 2024**
-- Showcased the terrain-adaptive vehicle system at **Continental Innovation Day**
-- Published **“Real-Time Biometrics-Based Smart EVM with FPGA Implementation”** in the *International Journal of Scientific Research and Engineering Trends*
-- Built **AgriSmart** as part of the **Mistral Hackathon** in Sydney
-
-## Tech Stack
-
-**Languages**
-
-Python, TypeScript, SQL
-
-**AI Systems**
-
-Agent orchestration, RAG, hybrid retrieval, reranking, embeddings, vector search, tool calling, MCP, structured outputs, prompt engineering, grounding, citation verification, LLM evaluation
-
-**Full-Stack & Data**
-
-FastAPI, Pydantic, Node.js, React, Next.js, PostgreSQL, pgvector, Redis, DuckDB, SQLGlot, MLflow, Pandas, NumPy, scikit-learn
-
-**Platform & Reliability**
-
-Docker, CI/CD, GitHub Actions, JWT/RBAC, audit logs, observability, sandboxing, security scanning, OpenAI, Anthropic, Groq
+| Organisation and role | Dates | My contribution |
+| --- | --- | --- |
+| **OMERS Infrastructure** · AI Enablement and Adoption Specialist · Sydney | September 2026 to present | Building AI agents and automation workflows for the Infrastructure team; leading AI enablement and adoption. |
+| **Arrayah & SH1P Australia** · Founder / AI Builder in Residence · Sydney | March 2026 to June 2026 | Led Orchestra’s discovery, product decisions, architecture, engineering and pilot delivery. Programme work included 100+ interviews and five pilot customers. |
+| **KRSP Tech** · AI & Automation Engineer · Sydney | January 2026 to March 2026 | Built a candidate-ranking system with section-aware scoring, local document processing and explanations for reviewers. |
+| **Aavaaz Inc** · Artificial Intelligence Intern · Remote | December 2024 to January 2025 | Developed speech-recognition and language-processing pipelines for real-time voice translation; reported 97% language-detection accuracy. |
+| **Continental Automotive** · Artificial Intelligence Intern · Bengaluru | May 2024 to October 2024 | Contributed to terrain perception and an internal engineering assistant reportedly adopted by 3,000+ employees. My Python automation reduced manual effort for airbag-testing documentation by roughly 95%. |
 
 ## Education
 
-### University of Technology Sydney
+- **Master of Data Science and Innovation**, University of Technology Sydney · **2025 to 2027, in progress**.
+- **Bachelor of Engineering**, BMS College of Engineering · **2020 to 2024**.
 
-**Master of Data Science and Innovation**  
-2025 – 2027
+## Recognition and publications
 
-### BMS College of Engineering
+- Selected for **Arrayah Accelerator Chapters 3 and 4** and **SH1P Australia Cohort 1**, where I developed Orchestra.
+- Showcased the **AI-Enhanced Terrain-Adaptive Vehicle Control System** at **Continental Innovation Day** and submitted a technical paper to the **SAEINDIA International Mobility Conference 2024**.
+- Published **“Real-Time Biometrics-Based Smart EVM with FPGA Implementation”** in the *International Journal of Scientific Research and Engineering Trends*.
+- Built **AgriSmart** as part of the **Mistral Hackathon in Sydney**.
 
-**Bachelor of Engineering in Electronics and Communication**  
-2020 – 2024
+## Tools I build with
+
+**Python, TypeScript, SQL and Swift** · React, Next.js, SwiftUI, Electron and FastAPI · PostgreSQL, pgvector, Redis and DuckDB · retrieval, tool use, MCP and agent orchestration · evaluation, automated testing, Docker and CI.
 
 ## Connect
 
-- **Portfolio:** [karthikrameshportfolio.vercel.app](https://karthikrameshportfolio.vercel.app)
-- **Email:** [karthikramesh2012@gmail.com](mailto:karthikramesh2012@gmail.com)
-- **LinkedIn:** [karthik-ramesh-2b52ab328](https://www.linkedin.com/in/karthik-ramesh-2b52ab328)
-- **GitHub:** [KarthikRamesh9149](https://github.com/KarthikRamesh9149)
-
-I’m interested in teams turning difficult customer workflows into dependable AI products—especially where product judgment, hands-on implementation, and responsible automation need to work together.
+[Portfolio](https://karthikrameshportfolio.vercel.app/) · [Email](mailto:karthikramesh2012@gmail.com) · [LinkedIn](https://www.linkedin.com/in/karthik-ramesh-2b52ab328/) · [GitHub](https://github.com/KarthikRamesh9149)
